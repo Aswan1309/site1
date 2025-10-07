@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+}
+button {
+  background-color: orange;
+  color: white;
+  border: groove;
+  border-radius: 50px;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+section {
+    height: 400px; /* juste pour espacer les sections */
+    padding: 20px;
+    text-decoration: solid;
+}
+
+#hobbies {
+    background-color :aquamarine;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+}  
+
+#auteurs {
+    background-color: blanchedalmond;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#livres{
+    background-color: greenyellow;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap; /* pour aller à la ligne si besoin */
+  gap: 20px; /* espace entre les éléments */
+  justify-content: center; /* centre tout horizontalement */
+  margin-top: 10px;
+}
+
+.galerie img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover; /* garde une belle forme d’image */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.galerie img:hover {
+  transform: scale(1.05); /* effet zoom au survol */
+}
+
+.galerie p {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.photos{
+  display: flex;
+  flex-wrap: wrap; /* pour aller à la ligne si besoin */
+  gap: 20px; /* espace entre les éléments */
+  justify-content: center; /* centre tout horizontalement */
+  margin-top: 10px;
+}
+
+.photos img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover; /* garde une belle forme d’image */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.photos img:hover {
+  transform: scale(1.05); /* effet zoom au survol */
+}
+
+.photos p {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
+}
