@@ -6,15 +6,15 @@
     <title>SITE 1</title>
 </head>
 <body>
-    <button class="btn" onclick="location.href = '#auteurs'">1.Mes auteurs préférés</button>
+    <button class="btn" onclick="location.href = '#auteurs'">1.Mes auteurs préférés</button> <!--Les boutons sont utilisés pour naviguer vers les sections -->
     <button class="btn" onclick="location.href='#hobbies'">2.Mes Hobbies</button>
-    <button class="btn" onclick="location.href = '#livres'">3.Mes livres </button>
-    <button class="btn" onclick="location.href = '#chansons'">4.Mes chansons préférés </button>
+    <button class="btn" onclick="location.href = '#livres'">3.Mes livres </button> 
+<!--Quand on clique dessus, la page descend automatiquement jusqu’à que ca soit #auteurs, #hobbies, ou #livres.
+C’est ce qu’on appelle une ancre interne-->
 
-
-    <!-- Section Hobbies -->
+    <!-- Section Hobbies : ici contient différents bloc (Hobbies, auteurs, et livres)-->
 <section id="hobbies">
-   <h2>Mes Hobbies</h2>
+   <h1>Mes Hobbies</h1>
     <div class="photos">
      <div class="hobbie">
          <img src="C:\Users\hello\Pictures\judo.webp" alt="Judo">
@@ -32,7 +32,7 @@
 </section>
 
 <section id="auteurs">
-  <h3>Mes auteurs</h3>
+  <h2>Mes auteurs</h2>
   <div class="galerie">
     <div class="auteur">
       <img src="C:\Users\hello\Pictures\agathachristie.webp" alt="Agatha Christie">
@@ -77,8 +77,6 @@
         <img src="C:\Users\hello\Pictures\lodysee.webp" alt="L'odyssée">
       <p>L'odyssée</p>
     </div>  
-
-
   </div>
 </section>
 </body>
